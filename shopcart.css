@@ -1,0 +1,202 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-color: rgb(210 209 197);
+} /*partie logo*/
+/*partie logo*/
+.logo_shop {
+  height: 8px;
+  padding-left: 66px;
+  padding-top: 20px;
+}
+
+/*partie nav*/
+.cart_nav {
+  display: flex;
+  list-style: none;
+  /* margin-right: 78px; */
+  padding-left: 862px;
+  font-size: 18px;
+  justify-content: space-between;
+}
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+}
+li a {
+  color: black;
+}
+.cart_nav li a {
+  margin-right: 20px;
+}
+
+ul li {
+  position: relative;
+  float: left;
+}
+li ul {
+  display: none;
+}
+ul li a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: #747474;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+ul li a:hover {
+  background: rgb(237, 236, 220);
+  color: #67189d;
+  text-decoration: none;
+}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover a {
+  background: rgb(237, 236, 220);
+  color: #67189d;
+}
+li:hover li a:hover {
+  background: #e5e6e7;
+  color: #67189d;
+}
+/*partie font img*/
+.font-imgg {
+  padding-top: 43px;
+}
+.font_img_shopcart {
+  height: 150px;
+  width: 1278px;
+  padding-top: 57px;
+  padding-right: -65px;
+  margin-left: -8px;
+  background-color: #66667d;
+}
+.font_img_shopcart h1 {
+  color: rgb(0, 0, 0);
+  font-size: 76px;
+}
+
+.font-img {
+  height: 207px;
+  padding-left: 45px;
+  width: 177px;
+}
+/*partie contenaire
+.partie-shop {
+  padding-top: 21px;
+}
+.partie-tab {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-top: 114px;
+  padding-left: 74px;
+  margin-right: 47px;
+}
+thead {
+  vertical-align: middle;
+  border-color: inherit;
+}
+thead tr {
+  padding-top: 0px;
+}
+thead th {
+  padding: 14px;
+  color: #222;
+
+  padding-bottom: 34px;
+  font-weight: 500;
+}
+tbody {
+  vertical-align: middle;
+  border-color: inherit;
+}
+tbody td {
+  border: 1px solid #eaeaea;
+  padding-left: 187px;
+  padding-right: 3px;
+  padding-bottom: 34px;
+}
+.btn--small {
+  padding: 5px;
+
+  border-radius: 6px;
+
+  background-color: #b59393;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+/*partie img 1er prouit
+.crois img {
+  border-radius: 11px;
+  width: 250px;
+  height: 244px;
+}
+.fs-number-element {
+  margin: -144px;
+  height: 29px;
+  width: 102px;
+  padding-left: -5px;
+  font-size: 19px;
+  text-align: center;
+  background-color: #bea5d0;
+}
+
+/*partie total
+.cart_totals {
+  padding-left: 792px;
+  padding-top: 29px;
+}
+.shop_table {
+  padding-bottom: 18px;
+  padding-left: 60px;
+}*/
+
+/*nex contenaireee***********************************************/
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid gray;
+  margin: 0 auto;
+}
+.product-title {
+  width: 45%;
+}
+.price {
+  width: 50%;
+  border-bottom: 4px solid gray;
+  display: flex;
+  align-items: center;
+}
+.total {
+  width: 10%;
+  border-bottom: 1 px solid gray;
+  display: flex;
+  align-items: center;
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}

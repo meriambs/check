@@ -1,0 +1,194 @@
+/*body part*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: url("./img/thrid.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-color: rgb(237, 236, 220);
+}
+
+/*partie logo*/
+.logo_shop {
+  height: 8px;
+  padding-left: 19px;
+  padding-top: 20px;
+}
+
+/*partie nav*/
+.Shop_nav {
+  display: flex;
+  list-style: none;
+  /* margin-right: 78px; */
+  padding-left: 862px;
+  font-size: 18px;
+  justify-content: space-between;
+}
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+}
+li a {
+  color: black;
+}
+.Shop_nav li a {
+  margin-right: 20px;
+}
+
+ul li {
+  position: relative;
+  float: left;
+}
+li ul {
+  display: none;
+}
+ul li a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: #747474;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+ul li a:hover {
+  background: transparent;
+  color: #67189d;
+  text-decoration: none;
+}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover a {
+  color: #67189d;
+}
+
+.contenue1 {
+  padding-top: 73px;
+  padding-left: 273px;
+  font-family: unset;
+}
+.contenue1 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 62px;
+}
+.contenue1 h2 {
+  color: #316939;
+  font-size: 50px;
+  letter-spacing: 14px;
+}
+.contenue1 p {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding-left: -11px;
+  letter-spacing: 13px;
+}
+/*partie outon frontale*/
+.favorite_styled {
+  background-color: transparent;
+  border-radius: 7px;
+  font-style: italic;
+  color: black;
+  border-color: #9a9797;
+  height: 56px;
+  width: 163px;
+  font-size: 21px;
+  padding-right: 8px;
+  margin-left: 219px;
+  margin-top: 35px;
+  border: groove gray;
+  border-right: groove;
+}
+.favorite_styled:hover {
+  background-color: blueviolet;
+  color: #e5e6e7;
+  border-color: blueviolet;
+}
+/*partie between produit*/
+.contenue_inbetween {
+  padding-top: 118px;
+}
+.footerinbetween h2 {
+  color: #316939;
+  font-size: 50px;
+  letter-spacing: 14px;
+  margin-right: 410px;
+}
+.footerinbetween p {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding-left: -11px;
+  letter-spacing: 13px;
+}
+/*partie produit*/
+.scdpart {
+  margin-top: 51px;
+  display: flex;
+}
+
+.contenaire_images {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 84px;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.text_lot_images {
+  text-align: center;
+  color: #00b39b;
+  letter-spacing: 0.3px;
+}
+.text_lot_images h2 {
+  margin-top: 39px;
+}
+.text_lot_images p {
+  text-align: center;
+  color: #747474;
+  margin: 1.6em 0;
+  font-size: 20px;
+}
+.images_lot_images {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+
+  padding-bottom: 35px;
+  background: transparent;
+
+  margin-bottom: 30px;
+}
+.images_lot_images:hover {
+  box-shadow: 0 5px 10px 0 rgb(190, 187, 187);
+  border-radius: 8px;
+}
+
+.office__image img {
+  display: block;
+  margin: 0 auto;
+  width: 295px;
+  height: 288px;
+  border-radius: 6px;
+}
+/*partieboutton*/
+.office__desc {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22.5px;
+}
+
+.cart1 .cart2 .cart3 .cart4 {
+  padding: 5px;
+
+  border-radius: 6px;
+
+  background-color: #b59393;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
